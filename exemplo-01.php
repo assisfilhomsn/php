@@ -15,6 +15,10 @@ class Documento{
 		$this->numero = $n;
 	}
 
+	public function __destruct(){
+		echo "<br/>"."Objeto destruido!"."<br/>";
+	}
+
 }
 
 
